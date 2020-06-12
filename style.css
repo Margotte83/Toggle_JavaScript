@@ -1,0 +1,37 @@
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6AC9DB;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #313131;
+}
+
+.text {
+    color: whitesmoke;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.text.is-visible {
+    display: none;
+}
+
+button {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    /* Green */
+    transition-duration: 0.4s;
+    font-family: 'Raleway', sans-serif;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
